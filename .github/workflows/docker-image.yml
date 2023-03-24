@@ -26,3 +26,4 @@ jobs:
   
     - name: Docker Push
       run: docker push sraves/angular-img:${{ steps.date.outputs.date }}
+    
